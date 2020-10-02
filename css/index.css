@@ -1,0 +1,198 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-family: 'Arial';
+    color: #2B3856;
+}
+* {
+    box-sizing: border-box;
+  }
+.w-82{
+    width: 82%;
+    margin: 10px auto;
+}
+.m-t-5{
+    margin-top: 5px;
+}
+.rotate90{
+    transform: rotate(90deg);
+}
+.rotate265{
+    transform: rotate(265deg);
+}
+.main-div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+.left-div{
+    width: 4%;
+    background-color: #2D90F3 ;
+}
+.right-div{
+    width: 96%;
+    background-color: #2B3856;
+    padding: 50px 60px 20px 60px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.title{
+    background-color: #2D90F3;
+    padding: 10px 5px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+}
+.section{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    background-color: #2D90F3;
+    position: relative;
+    justify-content: space-between;
+}
+.left-sub-div{
+    width: 33%;
+    padding: 25px 0 33px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.nokia{
+    font-size: 30px;
+    font-weight: 600;
+}
+.right-sub-div{
+    width: 70%;
+    padding-bottom: 30px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    padding-left: 15px;
+}
+.brochure{
+    background-color: #2B3856;
+    color: #ffffff;
+    width: 21%;
+    margin-right: 2px;
+    padding-left: 5px;
+    font-size: 10px;
+}
+.brochure img{
+    margin-bottom: 5px;
+}
+hr{
+    position: absolute;
+    height: 75%;
+    left: 29%;
+    bottom: -6px;
+    border: .5px solid #2B3856;
+}
+.text-wrapper{
+    padding-left: 15px;
+    padding-right: 20px;
+    font-size: 14px;
+}
+.circle,.filled-circle{
+    border-radius: 50%;
+    background-color: #ffffff;
+    opacity: 0.8;
+    display: inline-block;
+}
+.circle{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    width: 20px;
+    height: 20px;
+}
+.filled-circle{
+    width: 30px;
+    height: 30px;
+}
+.caption-container{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #2D90F3;
+    text-align: right;
+    padding:10px 20px;
+    width: 30%;
+    opacity: 0.8;
+    color: #ffffff;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Carousal styles */
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* Container for image text */
+  .row{
+      position: absolute;
+      bottom: 0;
+      margin: 0 45px;
+      display: flex;
+  }
+  /* Six columns side by side */
+  .column {
+    width: 110px;
+    height: 60px;
+    margin: 0 10px;
+    background-color: #2B3856;
+    position: relative;
+  }
+  .column.column-active{
+      bottom: 10px;
+  }
+  .number-text{
+      color: #ffffff;
+      padding-left: 2px;
+      padding-top: 2px;
+  }
+/* Carousal styles */

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+<div class="main-div">
+    <div class="left-div">
+
+    </div>
+    <div class="right-div">
+        <div class="header">
+            <span class="title">ELECTRONICA 2020</span>
+            <img src="./images/menu.svg" alt="hamburger" width="40px" height="30px"/>
+        </div>
+        <div class="section">
+            <div class="left-sub-div">
+                <div class="text-wrapper">
+                    <p class="nokia w-82">Nokia</p>
+                    <p class="w-82">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p>
+                    <p class="w-82">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                </div>
+                <div class="wrapper">
+                    <div class="brochure">
+                        <p class="m-t-5">Brochure</p>
+                        <img src="./images/list.png" alt="list-icon" width="30px" height="30px"/>
+                    </div>
+                    <div class="brochure">
+                        <p class="m-t-5">Chat</p>
+                        <img src="./images/list.png" alt="list-icon" width="30px" height="30px"/>
+                    </div>
+                    <div class="brochure">
+                        <p class="m-t-5">Watch Video</p>
+                        <img src="./images/list.png" alt="list-icon" width="30px" height="30px"/>
+                    </div>
+                    <div class="brochure">
+                        <p class="m-t-5">Visit Website</p>
+                        <img src="./images/list.png" alt="list-icon" width="30px" height="30px"/>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <div class="right-sub-div">
+                <!-- Carousel -->
+                <div class="container">
+                    <div class="mySlides">
+                      <img src="./images/mountain.jpeg" style="width:100%" alt="mountain" class="demo">
+                    </div>
+                  
+                    <div class="mySlides">
+                      <img src="./images/car.jpeg" style="width:100%" alt="car" class="demo">
+                    </div>
+                      
+                    <a class="prev" onclick="plusSlides(-1)"><img src="./images/arrow.png" alt="arrow" class="rotate90"/></a>
+                    <a class="next" onclick="plusSlides(1)"><img src="./images/arrow.png" alt="arrow" class="rotate265"/></a>
+                  
+                    <div class="caption-container">
+                        <span class="filled-circle"></span>
+                        <p id="caption"></p>
+                      </div>
+
+                    <div class="row">
+                      <div class="column column-active" onclick="currentSlide(1,this)">
+                        <div class="number-text">1</div>
+                        <span class="circle"></span>
+                      </div>
+                      <div class="column" onclick="currentSlide(2,this)">
+                        <div class="number-text">2</div>
+                        <span class="circle"></span>
+                      </div>
+                    </div>
+                  </div>
+                <!-- Carousel -->
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./js/main.js"></script>
+</body>
+</html>
